@@ -4,8 +4,9 @@
   "description": "Understanding TypeScript Course Setup",
   "main": "app.js",
   "scripts": {
+    "fix:prettier": "prettier --write src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server fix:prettier"
   },
   "keywords": [
     "typescript",
